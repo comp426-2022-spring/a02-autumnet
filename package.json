@@ -2,9 +2,9 @@
   "name": "coinflip",
   "version": "1.0.0",
   "description": "assignment a02",
-  "main": "flip.js",
+  "main": "flip.mjs",
   "scripts": {
-    "flip": "node flip.js",
+    "flip": "node flip.mjs",
     "flips": "node flips.js",
 	  "guess-flip": "node guess-flip.js",
     "test": "echo \"Error: no test specified\" && exit 1"
