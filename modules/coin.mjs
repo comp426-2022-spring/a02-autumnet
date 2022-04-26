@@ -38,7 +38,6 @@ function coinFlip() {
  */
 
 function coinFlips(flips) {
-
 }
 
 /** Count multiple flips
