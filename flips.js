@@ -11,4 +11,16 @@ const number = args.number || 1;
 var result = coinFlips(number)
 // Output the array of flips and its count summary
 console.log(result);
-console.log(countFlips(result));
+
+if (number = args.number) {
+    console.log(countFlips(result));
+} if (number =1) {
+    var tails=0;
+    var heads=0;
+    for (const flip of result) {
+    if (flip === "heads") {
+      console.log({"heads":1});
+    } else { console.log({"tails":1});
+    }
+  } 
+}
