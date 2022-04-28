@@ -80,7 +80,7 @@ function countFlips(array) {
 
 function flipACoin(call) {
   const flip = coinFlip();
-  const result = (call === flip) ? true: false;
+  const result = (call === flip) ? win : lose;
   return {"call":call, "flip":flip, "result":result}
 }
 
