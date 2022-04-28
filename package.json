@@ -2,11 +2,11 @@
   "name": "coinflip",
   "version": "1.0.0",
   "description": "assignment a02",
-  "main": "flip.mjs",
+  "main": "flips.mjs",
   "scripts": {
     "flip": "node flip.mjs",
-    "flips": "node flips.js",
-	  "guess-flip": "node guess-flip.js",
+    "flips": "node flips.mjs",
+    "guess-flip": "node guess-flip.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-autumnet/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-autumnet#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-autumnet#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
 }
