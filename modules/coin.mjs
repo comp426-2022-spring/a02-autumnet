@@ -67,13 +67,8 @@ function countFlips(array) {
     } else {
       tails++;
     }
-  } if (tails=0) {
-    return {"heads":heads}
-  } else if (heads=0) {
-    return {"tails":tails}
-  } else {
-    return { "tails":tails, "heads":heads};
-  }
+  } 
+  return { "tails":tails, "heads":heads};
 }
 
 /** Flip a coin!
